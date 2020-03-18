@@ -5,8 +5,15 @@
 	<link rel="stylesheet" href="assets/css/teamstyle.css">
 </head>
 <body>
-  
+    <script src="particles.min.js"></script>
   <section class="team-section">
+    
+    <script>
+        particlesJS.load('particles-js', 'assets/particles.json', function() {
+        console.log('callback - particles.js config loaded');});
+    </script>
+    <div class="wrapper">
+    <div class="backg"><div id="particles-js"></div></div>
      <div class="container">
          <div class="row">
              <div class="section-title">
@@ -14,6 +21,7 @@
                  <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
              </div>
          </div>
+        
          <div class="row">
              <div class="team-items">
                   <div class="item">
@@ -269,12 +277,14 @@
                      </div>
                  </div>
             </div>
+            
         </div>
     </div>
         
         
          </div>
  </div>
+</div>
     
 
 
