@@ -3071,3 +3071,15 @@
 		font-size: 1.5em;
 		
 	}
+
+.inner .logo img{
+	/* width: 250px; */
+	width: 70%;
+	height: 70%;
+	padding-top: 25px;
+      /* -webkit-filter: drop-shadow(5px 5px 5px #140549); */
+      /* filter: drop-shadow(5px 5px 5px #140549); */
+	  -webkit-shadow: 12px 13px 4px 3px rgba(21,57,94,1);
+	  -moz-shadow: 12px 13px 4px 3px rgba(21,57,94,1);
+	  filter: drop-shadow(5px 5px 5px #140549)
+	}
