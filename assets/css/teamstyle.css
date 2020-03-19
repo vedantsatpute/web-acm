@@ -11,6 +11,19 @@ body{
 *{
 	box-sizing: border-box;
 }
+.inner .logo img{
+	/* width: 250px; */
+	width: 70%;
+	height: 70%;
+	padding-top: 25px;
+	/* width: 70%; */
+	/* height: 70%; */
+	/* padding-top: 25px; */
+      /* -webkit-filter: drop-shadow(5px 5px 5px #140549); */
+      /* filter: drop-shadow(5px 5px 5px #140549); */
+	  -webkit-shadow: 12px 13px 4px 3px rgba(21,57,94,1);
+}
+
 
 #particles-js canvas {
     display: block;
@@ -212,6 +225,7 @@ section#team-header{
 .social-links a{
 padding-top: 7px;
 }
+
 
 
 
