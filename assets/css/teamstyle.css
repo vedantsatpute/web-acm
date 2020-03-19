@@ -2,7 +2,8 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body{
 	margin:0;
-	background-color:#00356B;
+	background: rgb(0,170,255);
+	background: linear-gradient(90deg, rgba(0,170,255,0.9363095580028886) 0%, rgba(0,146,208,0.9363095580028886) 36%, rgba(39,104,177,0.950315160243785) 77%);
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
 }
