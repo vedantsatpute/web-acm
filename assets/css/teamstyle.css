@@ -93,7 +93,7 @@ body{
 	padding:0 15px;
 }
 .team-section .team-items .item .inner .info{
-	background-color:#009688;
+	background-color:#009688;  /*card grad goes here*/
 	text-align: center;
 	padding: 20px 15px;
 	border-radius:8px;
