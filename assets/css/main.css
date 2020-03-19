@@ -2927,19 +2927,24 @@
 /* Banner */
 
 	#banner {
-		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
-		background-size: cover;
-		background-position: top;
+		padding: 13em 0 10em 0;
+		background-image: url('/images/teampic.png');
+		background-color: #4278b8;
+		/* background-size: cover; */
+		background-position: center;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
+		box-shadow: 1px 1px 8px black;
 		text-align: center;
 		border-top: 0.5em solid #5385c1;
+		min-height: 520px;
+		margin: -2em 0 2em 0;
 	}
 
 		#banner h1 {
-			font-size: 3.5em;
-			font-weight: 100;
+			font-size: 2.7em;
+			font-weight: 300;
+			text-shadow: 2px 2px 8px black;
 			color: #fff;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
@@ -2947,9 +2952,10 @@
 		}
 
 		#banner p {
-			font-size: 1em;
+			font-size: 1.5em;
 			color: rgba(255, 255, 255, 0.55);
-			margin-bottom: 1.75em;
+			margin: -0.5em 0 0.5em 0;
+			bottom: 1em;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
