@@ -2,11 +2,7 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 
-/*
-	Theory by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 /* Reset */
 
@@ -2742,17 +2738,15 @@
 		}
 
 		#header .logo {
-			color: #ffffff;
+	
 			display: inline-block;
-			font-weight: 600;
-			height: inherit;
 			left: 0;
-			line-height: inherit;
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
-			font-size: 1em;
+			top: -70px;
+			
+			
 		}
 
 		#header a {
