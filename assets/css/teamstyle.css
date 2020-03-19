@@ -11,6 +11,19 @@ body{
 *{
 	box-sizing: border-box;
 }
+.inner .logo img{
+	/* width: 250px; */
+	width: 70%;
+	height: 70%;
+	padding-top: 25px;
+	/* width: 70%; */
+	/* height: 70%; */
+	/* padding-top: 25px; */
+      /* -webkit-filter: drop-shadow(5px 5px 5px #140549); */
+      /* filter: drop-shadow(5px 5px 5px #140549); */
+	  -webkit-shadow: 12px 13px 4px 3px rgba(21,57,94,1);
+}
+
 
 #particles-js canvas {
     display: block;
@@ -140,7 +153,7 @@ section#team-header{
 	padding:0 15px;
 }
 .team-section .team-items .item .inner .info{
-	background-color:#2768b1; /*fallback for old browser. Last mod by OK45*/ /*card grad goes here*/
+	background-color:#063b79; /*fallback for old browser. Last mod by OK45*/ /*card grad goes here*/
 	/* background: #ff4b1f; fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #2768b1, #0092d0); Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #2768b1, #0092d0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -214,6 +227,7 @@ section#team-header{
 .social-links a{
 padding-top: 7px;
 }
+
 
 
 
