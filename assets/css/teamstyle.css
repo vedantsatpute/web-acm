@@ -138,12 +138,17 @@ section#team-header{
 	padding:0 15px;
 }
 .team-section .team-items .item .inner .info{
-	background-color:#009688; /*fallback for old browser. Last mod by OK45*/ /*card grad goes here*/
+	/* background-color:#009688;  */
+	background-color: #0b3b79;
+	/*fallback for old browser. Last mod by OK45*/ /*card grad goes here*/
 	/* background: #ff4b1f; fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2768b1, #0092d0); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2768b1, #0092d0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: -webkit-linear-gradient(to right, #2768b1, #0092d0); Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2768b1, #0092d0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
-	
+	/* -webkit-box-shadow: 0px 2px 4px 11px;
+    -moz-box-shadow: 0px 10px 4px 11px;
+     box-shadow: 0px 10px 4px 11px; */
+
 	
 	text-align: center;
 	padding: 20px 15px;
@@ -179,7 +184,8 @@ section#team-header{
 	height: 32px;
 	width: 32px;
 	background-color: #ffffff;
-	color:#009688;
+	/* color:#009688; */
+	color: black;
 	border-radius: 50%;
 	margin:0 2px;
 	text-align: center;
