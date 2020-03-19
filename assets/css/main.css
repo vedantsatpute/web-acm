@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:900&display=swap");
 
 /*
 	Theory by TEMPLATED
@@ -1584,6 +1585,7 @@
 
 /* Type */
 
+<<<<<<< Updated upstream
 	body, input, select, textarea {
 		color: #9a9a9a;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -1772,6 +1774,213 @@
 			}
 
 		}
+=======
+body,
+input,
+select,
+textarea {
+  color: #9a9a9a;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight: 300;
+  line-height: 1.65;
+}
+
+@media screen and (max-width: 1680px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 12pt;
+  }
+}
+
+a {
+  color: #5385c1;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+strong,
+b {
+  color: #555;
+  font-weight: 600;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+p {
+  margin: 0 0 2em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #5385c1;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-family: "Raleway", sans-serif;
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 1.35em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+blockquote {
+  border-left: solid 4px #dbdbdb;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+code {
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 0;
+  border: solid 1px #dbdbdb;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+}
+
+pre code {
+  display: block;
+  line-height: 1.75;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+
+hr {
+  border: 0;
+  border-bottom: solid 1px #dbdbdb;
+  margin: 2em 0;
+}
+
+hr.major {
+  margin: 3em 0;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.inner {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .inner {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inner {
+    max-width: 85%;
+  }
+}
+>>>>>>> Stashed changes
 
 /* Section/Article */
 
@@ -1979,6 +2188,7 @@
 
 /* Form */
 
+<<<<<<< Updated upstream
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -2175,6 +2385,204 @@
 		color: #bbb !important;
 		opacity: 1.0;
 	}
+=======
+form {
+  margin: 0 0 2em 0;
+}
+
+label {
+  color: #555;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 0;
+  border: none;
+  border: solid 1px #dbdbdb;
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+}
+
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+input[type="tel"]:invalid,
+select:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #5385c1;
+  box-shadow: 0 0 0 1px #5385c1;
+}
+
+.select-wrapper {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.select-wrapper:before {
+  content: "";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.select-wrapper:before {
+  color: #dbdbdb;
+  display: block;
+  height: 2.75em;
+  line-height: 2.75em;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 2.75em;
+}
+
+.select-wrapper select::-ms-expand {
+  display: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  height: 2.75em;
+}
+
+textarea {
+  padding: 0.75em 1em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: block;
+  float: left;
+  margin-right: -2em;
+  opacity: 0;
+  width: 1em;
+  z-index: -1;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  text-decoration: none;
+  color: #9a9a9a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 300;
+  padding-left: 2.4em;
+  padding-right: 0.75em;
+  position: relative;
+}
+
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 0;
+  border: solid 1px #dbdbdb;
+  content: "";
+  display: inline-block;
+  height: 1.65em;
+  left: 0;
+  line-height: 1.58125em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1.65em;
+}
+
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:checked + label:before {
+  background: #5a5a5a;
+  border-color: #5a5a5a;
+  color: #ffffff;
+  content: "\f00c";
+}
+
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+  border-color: #5385c1;
+  box-shadow: 0 0 0 1px #5385c1;
+}
+
+input[type="checkbox"] + label:before {
+  border-radius: 0;
+}
+
+input[type="radio"] + label:before {
+  border-radius: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+
+:-moz-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+
+.formerize-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+>>>>>>> Stashed changes
 
 /* Box */
 
@@ -2932,6 +3340,7 @@
 
 /* Banner */
 
+<<<<<<< Updated upstream
 	#banner {
 		padding: 12em 0 10em 0;
 		background-image: url('../../images/banner.jpg');
@@ -3005,6 +3414,84 @@
 			}
 
 		}
+=======
+#banner {
+  padding: 13em 0 10em 0;
+  background-image: url("/images/teampic.png");
+  background-color: rgb(0, 170, 255);
+  background-color: linear-gradient(
+    90deg,
+    rgba(0, 170, 255, 0.9363095580028886) 0%,
+    rgba(0, 146, 208, 0.9363095580028886) 43%,
+    rgba(39, 104, 177, 0.950315160243785) 100%
+  );
+  /* background-size: cover; */
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px black;
+  text-align: center;
+  border-top: 0.5em solid #5385c1;
+  min-height: 520px;
+  margin: -2em 0 2em 0;
+}
+
+#banner h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.7em;
+  font-weight: 300;
+  text-shadow: 2px 2px 8px black;
+  color: #fff;
+  line-height: 1em;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
+#banner p {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.55);
+  margin: -0.5em 0 0.5em 0;
+  bottom: 1em;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #banner {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #banner {
+    padding: 10em 2em 8em 2em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #banner {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #banner {
+    padding: 8em 1.5em 6em 1.5em;
+  }
+
+  #banner h1 {
+    font-size: 2.5em;
+  }
+
+  #banner p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #banner {
+    padding: 6em 1.5em 4em 1.5em;
+  }
+}
+>>>>>>> Stashed changes
 
 /* Footer */
 
