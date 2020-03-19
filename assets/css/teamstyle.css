@@ -140,7 +140,7 @@ section#team-header{
 	padding:0 15px;
 }
 .team-section .team-items .item .inner .info{
-	background-color:#2768b1; /*fallback for old browser. Last mod by OK45*/ /*card grad goes here*/
+	background-color:#063b79; /*fallback for old browser. Last mod by OK45*/ /*card grad goes here*/
 	/* background: #ff4b1f; fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #2768b1, #0092d0); Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #2768b1, #0092d0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
