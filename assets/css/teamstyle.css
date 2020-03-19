@@ -36,6 +36,20 @@ body{
 	min-height: 100vh;
 	padding:70px 15px 30px;
 }
+.section-title h1{
+	animation: arriba 1s ease-in;
+}
+@keyframes arriba{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 
 .container{
 	max-width: 1170px;
@@ -93,7 +107,13 @@ body{
 	padding:0 15px;
 }
 .team-section .team-items .item .inner .info{
-	background-color:#009688;
+	background-color:#009688; /*fallback for old browser. Last mod by OK45*/ /*card grad goes here*/
+	/* background: #ff4b1f; fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2768b1, #0092d0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2768b1, #0092d0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	
+	
 	text-align: center;
 	padding: 20px 15px;
 	border-radius:8px;
