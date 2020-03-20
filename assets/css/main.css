@@ -3243,3 +3243,12 @@ button:disabled,
   position: relative;
   z-index: 10;
 }
+
+.footer_area {
+  
+    color: #fff;
+    background-color: #151515;
+    padding: 40px 0 40px 0;
+    margin: 0 0 20px 0;
+    
+}
