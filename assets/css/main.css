@@ -3094,7 +3094,7 @@ button:disabled,
     rgba(39, 104, 177, 0.950315160243785) 100% 
     );
 */
-  
+
   /* background-size: cover; */
   background-position: center;
   background-attachment: fixed;
@@ -3107,6 +3107,7 @@ button:disabled,
 }
 
 #banner h1 {
+  font-family: "Raleway", sans-serif;
   font-size: 2.7em;
   font-weight: 300;
   text-shadow: 2px 2px 8px black;
@@ -3225,9 +3226,12 @@ button:disabled,
 
 .inner .logo img {
   /* width: 250px; */
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  width: 194px;
+  height: 68px;
   padding-top: 0px;
+  margin-top: 63px;
   /* width: 70%; */
   /* height: 70%; */
   /* padding-top: 25px; */
@@ -3239,7 +3243,7 @@ button:disabled,
 }
 
 #teampic {
-  margin: 145px 0 0 0;
+  margin: 110px 0 0 0;
   position: relative;
   z-index: 10;
 }
