@@ -2878,17 +2878,17 @@ button:disabled,
 
 /* Header */
 
-.subpage {
+/* .subpage {
   padding-top: 44px;
-}
-
-.subpage #header {
+} */
+/* DONT UNCOMMENT THIS CODE FFS */
+/* .subpage #header {
   background: #5385c1;
   top: 0;
   height: 44px;
   line-height: 44px;
   position: fixed;
-}
+} */
 
 #header {
   color: #d4e0ef;
