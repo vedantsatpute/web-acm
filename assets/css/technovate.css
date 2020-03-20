@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+
+
 *{
   box-sizing: border-box;
 }
@@ -285,7 +291,12 @@ a:hover{text-decoration:none;}
 
 #banner2 {
   padding: 12em 0 10em 0;
-  background-image: url("../../images/banner2.jpg");
+  /* background-image: url("../../images/banner2.jpg"); */
+  background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -295,6 +306,9 @@ a:hover{text-decoration:none;}
 }
 
 #banner2 h1 {
+  font-family: 'Open Sans', sans-serif;
+
+  
   font-size: 6em;
   font-weight: 100;
   color: #fff;
@@ -304,6 +318,8 @@ a:hover{text-decoration:none;}
 }
 
 #banner2 p {
+  font-family: 'Open Sans', sans-serif;
+
   font-size: 2em;
   color: rgba(255, 255, 255, 0.55);
   margin-bottom: 1.75em;
@@ -333,10 +349,16 @@ a:hover{text-decoration:none;}
   }
 
   #banner2 h1 {
+    font-family: 'Open Sans', sans-serif;
+
+    
     font-size: 2.5em;
   }
 
   #banner2 p {
+
+    font-family: 'Open Sans', sans-serif;
+
     font-size: 0.9em;
   }
 }
@@ -347,7 +369,8 @@ a:hover{text-decoration:none;}
   }
 }
 .footer_area {
-  
+  font-family: 'Open Sans', sans-serif;
+
   color: #fff;
   background-color: #151515;
   padding: 30px 30px 30px 30px;
