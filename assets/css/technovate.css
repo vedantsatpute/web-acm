@@ -1,8 +1,6 @@
-*{
+* {
   box-sizing: border-box;
 }
-
-
 
 #header {
   color: #d4e0ef;
@@ -17,7 +15,7 @@
   z-index: 10001;
   display: block;
 }
-#header{
+#header {
   margin: 0;
   padding: 0;
   border: 0;
@@ -206,82 +204,199 @@
 #nav {
   font-size: 1.5em;
 }
-nav{
+nav {
   display: block;
 }
 
-
-
-
 /*! CSS Used from: http://127.0.0.1:5500/assets/css/main.css */
 /*! @import http://127.0.0.1:5500/assets/css/font-awesome.min.css */
-.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
-.fa-bars:before{content:"\f0c9";}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-bars:before {
+  content: "\f0c9";
+}
 /*! end @import */
-div,span,a,img,header,nav{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-header,nav{display:block;}
-*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-a{color:#5385c1;text-decoration:underline;}
-a:hover{text-decoration:none;}
-.inner{max-width:75em;margin:0 auto;}
-@media screen and (max-width: 1280px){
-.inner{max-width:90%;}
+div,
+span,
+a,
+img,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-@media screen and (max-width: 480px){
-.inner{max-width:85%;}
+header,
+nav {
+  display: block;
 }
-::-webkit-input-placeholder{color:#bbb!important;opacity:1;}
-:-moz-placeholder{color:#bbb!important;opacity:1;}
-::-moz-placeholder{color:#bbb!important;opacity:1;}
-:-ms-input-placeholder{color:#bbb!important;opacity:1;}
-#header{color:#d4e0ef;cursor:default;height:3.25em;left:0;line-height:3.25em;position:absolute;text-align:right;top:4em;width:100%;z-index:10001;}
-#header .inner{margin:0 auto;position:relative;}
-#header a{-moz-transition:color 0.2s ease-in-out;-webkit-transition:color 0.2s ease-in-out;-ms-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;display:inline-block;padding:0 0.75em;color:inherit;text-decoration:none;font-size:0.8em;font-weight:200;}
-#header a:hover{color:#ffffff;}
-#header a:last-child{padding-right:0;}
-#header a.navPanelToggle{display:none;text-decoration:none;height:4em;width:4em;z-index:10003;}
-#header a.navPanelToggle .fa{font-size:1.25em;}
-@media screen and (max-width: 980px){
-#header a.navPanelToggle{display:inline-block;}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-@media screen and (max-width: 736px){
-#header a{padding:0 0.5em;}
+a {
+  color: #5385c1;
+  text-decoration: underline;
 }
-@media screen and (max-width: 980px){
-#header{top:3em;height:44px;line-height:44px;}
+a:hover {
+  text-decoration: none;
 }
-@media screen and (max-width: 736px){
-#header{top:2em;}
+.inner {
+  max-width: 75em;
+  margin: 0 auto;
 }
-@media screen and (max-width: 480px){
-#header{top:1em;min-width:320px;}
+@media screen and (max-width: 1280px) {
+  .inner {
+    max-width: 90%;
+  }
 }
-@media screen and (max-width: 980px){
-#nav{display:none;}
+@media screen and (max-width: 480px) {
+  .inner {
+    max-width: 85%;
+  }
 }
-#nav{font-size:1.5em;}
-.inner .logo img{width:194px;position:absolute;-webkit-shadow:12px 13px 4px 3px rgba(21, 57, 94, 1);-moz-shadow:12px 13px 4px 3px rgba(21, 57, 94, 1);filter:drop-shadow(3px 3px 6px #2768b1);}
-#header .logo{display:inline-block;left:0;margin:0;padding:0;position:absolute;top:0px;}
+::-webkit-input-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+#header {
+  color: #d4e0ef;
+  cursor: default;
+  height: 3.25em;
+  left: 0;
+  line-height: 3.25em;
+  position: absolute;
+  text-align: right;
+  top: 4em;
+  width: 100%;
+  z-index: 10001;
+}
+#header .inner {
+  margin: 0 auto;
+  position: relative;
+}
+#header a {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  display: inline-block;
+  padding: 0 0.75em;
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 200;
+}
+#header a:hover {
+  color: #ffffff;
+}
+#header a:last-child {
+  padding-right: 0;
+}
+#header a.navPanelToggle {
+  display: none;
+  text-decoration: none;
+  height: 4em;
+  width: 4em;
+  z-index: 10003;
+}
+#header a.navPanelToggle .fa {
+  font-size: 1.25em;
+}
+@media screen and (max-width: 980px) {
+  #header a.navPanelToggle {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 736px) {
+  #header a {
+    padding: 0 0.5em;
+  }
+}
+@media screen and (max-width: 980px) {
+  #header {
+    top: 3em;
+    height: 44px;
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 736px) {
+  #header {
+    top: 2em;
+  }
+}
+@media screen and (max-width: 480px) {
+  #header {
+    top: 1em;
+    min-width: 320px;
+  }
+}
+@media screen and (max-width: 980px) {
+  #nav {
+    display: none;
+  }
+}
+#nav {
+  font-size: 1.5em;
+}
+.inner .logo img {
+  width: 194px;
+  position: absolute;
+  -webkit-shadow: 12px 13px 4px 3px rgba(21, 57, 94, 1);
+  -moz-shadow: 12px 13px 4px 3px rgba(21, 57, 94, 1);
+  filter: drop-shadow(3px 3px 6px #2768b1);
+}
+#header .logo {
+  display: inline-block;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+}
 /*! CSS Used fontfaces */
-@font-face{font-family:'FontAwesome';src:url('http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.eot?v=4.6.3');src:url('http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.eot#iefix&v=4.6.3') format('embedded-opentype'),url('http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),url('http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),url('http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),url('http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@font-face {
+  font-family: "FontAwesome";
+  src: url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.eot?v=4.6.3");
+  src: url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.eot#iefix&v=4.6.3")
+      format("embedded-opentype"),
+    url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.woff2?v=4.6.3")
+      format("woff2"),
+    url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.woff?v=4.6.3")
+      format("woff"),
+    url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.ttf?v=4.6.3")
+      format("truetype"),
+    url("http://127.0.0.1:5500/assets/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Banner */
-
 
 #banner2 {
   padding: 12em 0 10em 0;
@@ -347,24 +462,68 @@ a:hover{text-decoration:none;}
   }
 }
 .footer_area {
-  
   color: #fff;
   background-color: #151515;
   padding: 30px 30px 30px 30px;
   margin: 0 -15px -30px -15px;
-  
 }
 
 .col-lg-3 {
-margin-left: 100px;
+  margin-left: 100px;
 }
 
 #header .logo {
-display: inline-block;
-left: 0;
-margin: 0;
-padding: 0;
-position: absolute;
-top: 0px;
+  display: inline-block;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+}
 
+.container2 {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  -webkit-box-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover {
+  -webkit-box-flex: 1;
+  flex: 1 1 50%;
+}
+
+.box:hover > img {
+  width: 100%;
+  height: 100%;
 }
