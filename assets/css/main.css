@@ -2920,7 +2920,8 @@ button:disabled,
   color: inherit;
   text-decoration: none;
   font-size: 0.8em;
-  font-weight: 200;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #header a:hover {
@@ -3108,14 +3109,16 @@ button:disabled,
   color: #fff;
   line-height: 1em;
   margin: 0 0 0.5em 0;
-  padding: 0;
+  padding-top: 100px;
 }
 
 #banner p {
   font-size: 1.5em;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.9);
   margin: -0.5em 0 0.5em 0;
   bottom: 1em;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #5385c1;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -3147,6 +3150,7 @@ button:disabled,
 
   #banner p {
     font-size: 0.9em;
+    
   }
 }
 
@@ -3160,6 +3164,7 @@ button:disabled,
 
 #nav {
   font-size: 1.5em;
+  
 }
 
 .inner .logo img {
@@ -3180,7 +3185,7 @@ button:disabled,
 }
 
 #teampic {
-  margin: 110px 0 0 0;
+  margin: 10px 0 0 0;
   position: relative;
   z-index: 10;
 }
