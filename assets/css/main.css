@@ -3262,3 +3262,9 @@ button:disabled,
   top: 0px;
   
 }
+
+.lovetext {
+  justify-content: left;
+  text-align: left;
+  
+}
