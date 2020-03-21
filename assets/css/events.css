@@ -8,6 +8,7 @@ body{
 }
 .main{
  margin: 11%;
+ height:290vh;
 }
 
 .card{
@@ -149,7 +150,7 @@ div{
 	background-color: #0092d0;
     color: #d4e0ef;
     cursor: default;
-    height: 12.25em;
+    height: 17.25em;
     line-height: 3em;
     position: absolute;
     text-align: center;
