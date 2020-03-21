@@ -1733,7 +1733,7 @@ body,
 input,
 select,
 textarea {
-  color: #9a9a9a;
+  color: #474747;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 13pt;
   font-weight: 300;
@@ -1815,7 +1815,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #5385c1;
+  color: #1666ba;
   font-weight: 300;
   line-height: 1.5;
   margin: 0 0 1em 0;
@@ -2030,7 +2030,7 @@ article.wrapper.style1 h3 {
 }
 
 header p {
-  color: #bbb;
+  color: rgb(29, 29, 29);
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -2908,8 +2908,6 @@ button:disabled,
   position: relative;
 }
 
-
-
 #header a {
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
@@ -3150,7 +3148,6 @@ button:disabled,
 
   #banner p {
     font-size: 0.9em;
-    
   }
 }
 
@@ -3160,11 +3157,8 @@ button:disabled,
   }
 }
 
-
-
 #nav {
   font-size: 1.5em;
-  
 }
 
 .inner .logo img {
@@ -3172,7 +3166,7 @@ button:disabled,
   /* width: 100%;
   height: 100%; */
   width: 194px;
-  
+
   position: absolute;
   /* width: 70%; */
   /* height: 70%; */
@@ -3191,12 +3185,10 @@ button:disabled,
 }
 
 .footer_area {
-  
-    color: #fff;
-    background-color: #151515;
-    padding: 30px 30px 30px 30px;
-    margin: 0 -15px -30px -15px;
-    
+  color: #fff;
+  background-color: #151515;
+  padding: 30px 30px 30px 30px;
+  margin: 0 -15px -30px -15px;
 }
 
 .col-lg-3 {
@@ -3210,13 +3202,11 @@ button:disabled,
   padding: 0;
   position: absolute;
   top: 0px;
-  
 }
 
 .lovetext {
   justify-content: left;
   text-align: left;
-  
 }
 
 .img1 img {
@@ -3224,9 +3214,8 @@ button:disabled,
   width: 300px;
 }
 
-.wrapper h2{
+.wrapper h2 {
   font-weight: 700;
   padding: 0 0 20px 0;
   margin-top: -10px;
-  
 }
