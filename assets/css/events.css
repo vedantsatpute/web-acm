@@ -1,8 +1,116 @@
 *{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ height: 12em;
+ font-family: arial;
+}
+.main{
+ margin: 10%;
+}
+
+.card{
+     width: 240px;
+	 height: 380px;
+	 background-colorcolor: white;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+	 
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+	font-family: sans-serif; 
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+  color:black;
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  flex: 1 1 auto;
+  font-size:12px;
+  margin: 30px;
+  padding: 1px;
+  text-align: left;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  border-radius: 10px;
+   background-image: linear-gradient(to right, #0092d0 0%, #F5FFFA 51%, pink 100%);
+}
+button:hover{
+  background-position: right center; 
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+*{
     box-sizing: border-box;
 }
 body{
-    background-color: #5385c1;
+    background-color: white;
 }
 div{
     margin: 0;
@@ -14,23 +122,52 @@ div{
 }
 
 
-
+.parallax{
+	height: 50px;
+	background-image:"";
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #header {
+	background-color: black;
     color: #d4e0ef;
     cursor: default;
-    height: 3.25em;
-    left: 0;
+    height: 7.25em;
+    left: 5;
+	right: 20px;
     line-height: 3.25em;
     position: absolute;
     text-align: right;
-    top: 4em;
+    top: 0em;
     width: 100%;
     z-index: 10001;
   }
-  
+  #header1 {
+	background-color: #0092d0;
+    color: #d4e0ef;
+    cursor: default;
+    height: 12.25em;
+    line-height: 3em;
+    position: absolute;
+    text-align: center;
+    top: 7.25em;
+    width: 100%;
+    z-index: 10001;
+  }
+  #header1 .inner {
+  margin: 0 auto;
+  color: white;
+  font-family: HighlightText;
+  font-size: 20px;
+  position: relative;
+  padding-top: 10px;
+}
   #header .inner {
-    margin: 0 auto;
+    margin: 30px;
+	left:200px;
     position: relative;
   }
   
@@ -39,6 +176,7 @@ div{
   }
   
   #header a {
+	  
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
@@ -190,10 +328,10 @@ div{
     content: "\f00d";
     width: 3em;
     height: 3em;
-    line-height: 3em;
+    line-height: 5 em;
     display: block;
     position: absolute;
-    right: 0;
+    right: 40px;
     top: 0;
     text-align: center;
   }
@@ -231,8 +369,6 @@ div{
     /* width: 100%;
     height: 100%; */
     width: 194px;
-    
-    position: absolute;
     /* width: 70%; */
     /* height: 70%; */
     /* padding-top: 25px; */
@@ -272,6 +408,7 @@ nav{
 }
 .inner .logo img{
     width: 194px;
+	vertical-align: baseline;
     position: absolute;
     filter: drop-shadow(3px 3px 6px #2768b1);
 }
@@ -290,20 +427,20 @@ nav{
 /* FOOTER PROPERTIES () */
 .footer_area {
   
-    color: #fff;
-    background-color: #151515;
-    padding: 30px 30px 30px 30px;
-    margin: 0 -15px -30px -15px;
-    
+  color: #fff;
+  background-color: #151515;
+  padding: 30px 30px 30px 30px;
+  margin: 0 -15px -30px -15px;
+  
 }
 
 .col-lg-3 {
-  margin-left: auto;
+margin-left: 100px;
 }
 
 #header .logo {
   display: inline-block;
-  left: 0;
+  left: 20px;
   margin: 0;
   padding: 0;
   position: absolute;
