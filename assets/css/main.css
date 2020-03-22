@@ -3435,12 +3435,19 @@ color: #000000;
 
 }
 
-div.buttons#pccoer-button{
+/* div.buttons#pccoer-button{
   position: absolute;
 width: 183px;
 height: 41px;
 left: 749px;
 top: 1553px;
 
-}
+} */
 
+.buttons {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  
+}
