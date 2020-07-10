@@ -23,6 +23,8 @@ Playful and Colorful One-Page portfolio featuring Parallax effects and animation
 
 Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes.lekoarts.de)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae3f1305-b8b3-4e9d-9d41-a132d93c1923/deploy-status)](https://app.netlify.com/sites/pccoeracm/deploys)
+
 ## ✨ Features
 
 - Theme UI-based theming
@@ -30,8 +32,6 @@ Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes
 - CSS Animations on Shapes
 
 ## 🚀 Getting Started
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LekoArts/gatsby-starter-portfolio-cara) [![Edit gatsby-starter-portfolio-cara](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/LekoArts/gatsby-starter-portfolio-cara/tree/master/)
 
 1. **Create a Gatsby site.**
 
